@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ease_flow
+    username: ease_flow
+    password: ease_flow
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    open-in-view: false
+server:
+  port: 8090
